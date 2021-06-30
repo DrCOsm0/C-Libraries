@@ -1,5 +1,5 @@
 
-#include "nrf24.h"
+#include "nrf24_lib.h"
 #include <avr/io.h>
 
 #define set_bit(reg,bit) reg |= (1<<bit)
